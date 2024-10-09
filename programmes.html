@@ -1,0 +1,354 @@
+<html><head><base href="https://www.merkezasmaatbintaboubakr.com/programmes.html">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>البرامج | Programmes - مركز أسماء بنت أبي بكر | Merkez ASMAAT BINT ABOUBAKR</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+    body {
+        font-family: 'Amiri', 'Roboto', sans-serif;
+    }
+    .bg-primary {
+        background-color: #4a6741 !important;
+    }
+    .btn-primary {
+        background-color: #4a6741;
+        border-color: #4a6741;
+    }
+    .btn-primary:hover {
+        background-color: #3a5331;
+        border-color: #3a5331;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgba(255,255,255,.8);
+    }
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: rgba(255,255,255,1);
+    }
+    .hidden {
+        display: none;
+    }
+    .lang-icon {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .lang-icon.active {
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    .program-card {
+        transition: transform 0.3s ease-in-out;
+        height: 100%;
+    }
+    .program-card:hover {
+        transform: translateY(-5px);
+    }
+    .program-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .text-purple {
+        color: #8e44ad;
+    }
+    .program-card.quran {
+        background-color: #e6f3ff;
+    }
+    .program-card.teacher {
+        background-color: #fff0e6;
+    }
+    .program-card.sewing {
+        background-color: #e6ffe6;
+    }
+    .program-card.vacation {
+        background-color: #e6fff2;
+    }
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+</style>
+</head>
+<body>
+    <header class="bg-primary text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-2">
+                    <img src="/logo.png" alt="Logo مركز أسماء بنت أبي بكر" class="img-fluid">
+                </div>
+                <div class="col-md-10">
+                    <h1 class="mb-0">مركز أسماء بنت أبي بكر | Merkez ASMAAT BINT ABOUBAKR</h1>
+                    <p class="lead mb-0">المركز النسائي لتحفيظ القرآن الكريم | Centre Féminin de Mémorisation du Noble Coran</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link ar" href="/index.html">الرئيسية</a><a class="nav-link fr hidden" href="/index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link ar active" href="/programmes.html">البرامج</a><a class="nav-link fr hidden active" href="/programmes.html">Programmes</a></li>
+                    <li class="nav-item"><a class="nav-link ar" href="/conditions.html">شروطنا</a><a class="nav-link fr hidden" href="/conditions.html">Nos Conditions</a></li>
+                    <li class="nav-item"><a class="nav-link ar" href="/inscription.html">التسجيل</a><a class="nav-link fr hidden" href="/inscription.html">Inscription</a></li>
+                    <li class="nav-item"><a class="nav-link ar" href="/contact.html">اتصل بنا</a><a class="nav-link fr hidden" href="/contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link ar" href="/dons.html">التبرعات</a><a class="nav-link fr hidden" href="/dons.html">Dons</a></li>
+                </ul>
+                <div class="d-flex">
+                    <img src="https://cdn-icons-png.flaticon.com/512/330/330018.png" alt="Arabic" class="lang-icon active" onclick="setLanguage('ar')" id="ar-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/330/330490.png" alt="French" class="lang-icon" onclick="setLanguage('fr')" id="fr-icon">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h2 class="text-center mb-5 ar">برامجنا المتميزة</h2>
+        <h2 class="text-center mb-5 fr hidden">Nos programmes exceptionnels</h2>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 program-card quran">
+                    <div class="card-body text-center">
+                        <i class="fas fa-quran program-icon text-primary"></i>
+                        <h3 class="card-title ar">برنامج تحفيظ القرآن الكامل</h3>
+                        <h3 class="card-title fr hidden">Programme de mémorisation complète du Coran</h3>
+                        <p class="ar">برنامج شامل ومكثف لحفظ القرآن الكريم بأكمله، مصمم لتطوير مهارات الحفظ والتجويد والفهم.</p>
+                        <p class="fr hidden">Un programme complet et intensif pour mémoriser l'intégralité du Noble Coran, conçu pour développer les compétences de mémorisation, de tajwid et de compréhension.</p>
+                        <a href="#full-quran" class="btn btn-primary ar" data-bs-toggle="modal" data-bs-target="#fullQuranModal">المزيد من التفاصيل</a>
+                        <a href="#full-quran" class="btn btn-primary fr hidden" data-bs-toggle="modal" data-bs-target="#fullQuranModal">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 program-card teacher">
+                    <div class="card-body text-center">
+                        <i class="fas fa-chalkboard-teacher program-icon text-info"></i>
+                        <h3 class="card-title ar">برنامج إعداد المعلمات</h3>
+                        <h3 class="card-title fr hidden">Programme de formation des enseignantes</h3>
+                        <p class="ar">برنامج متخصص لإعداد وتأهيل معلمات القرآن الكريم، يجمع بين العلوم الشرعية ومهارات التدريس الحديثة.</p>
+                        <p class="fr hidden">Un programme spécialisé pour préparer et qualifier les enseignantes du Noble Coran, combinant les sciences islamiques et les compétences pédagogiques modernes.</p>
+                        <a href="#teacher-training" class="btn btn-primary ar" data-bs-toggle="modal" data-bs-target="#teacherTrainingModal">المزيد من التفاصيل</a>
+                        <a href="#teacher-training" class="btn btn-primary fr hidden" data-bs-toggle="modal" data-bs-target="#teacherTrainingModal">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 program-card sewing">
+                    <div class="card-body text-center">
+                        <i class="fas fa-cut program-icon text-purple"></i>
+                        <h3 class="card-title ar">برنامج تعليم الخياطة المهنية</h3>
+                        <h3 class="card-title fr hidden">Programme d'apprentissage professionnel : Couture</h3>
+                        <p class="ar">برنامج شامل لتعليم مهارات الخياطة الاحترافية، يهدف إلى تمكين النساء مهنياً واقتصادياً.</p>
+                        <p class="fr hidden">Un programme complet pour enseigner les compétences professionnelles en couture, visant à autonomiser les femmes professionnellement et économiquement.</p>
+                        <a href="#sewing-program" class="btn btn-primary ar" data-bs-toggle="modal" data-bs-target="#sewingProgramModal">المزيد من التفاصيل</a>
+                        <a href="#sewing-program" class="btn btn-primary fr hidden" data-bs-toggle="modal" data-bs-target="#sewingProgramModal">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 program-card vacation">
+                    <div class="card-body text-center">
+                        <i class="fas fa-plane-departure program-icon text-success"></i>
+                        <h3 class="card-title ar">برنامج الإجازة الصيفية</h3>
+                        <h3 class="card-title fr hidden">Programme de vacances d'été</h3>
+                        <p class="ar">برنامج استثنائي لمدة شهرين خلال العطلة الصيفية، مصمم خصيصًا للطالبات الناطقات بالفرنسية لتحفيظ القرآن الكريم.</p>
+                        <p class="fr hidden">Un programme exceptionnel de 2 mois pendant les vacances d'été, spécialement conçu pour les étudiantes francophones pour la mémorisation du Noble Coran.</p>
+                        <a href="#vacation-program" class="btn btn-primary ar" data-bs-toggle="modal" data-bs-target="#vacationProgramModal">المزيد من التفاصيل</a>
+                        <a href="#vacation-program" class="btn btn-primary fr hidden" data-bs-toggle="modal" data-bs-target="#vacationProgramModal">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modals for each program -->
+    <div class="modal fade" id="fullQuranModal" tabindex="-1" aria-labelledby="fullQuranModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title ar" id="fullQuranModalLabel">برنامج تحفيظ القرآن الكامل</h5>
+                    <h5 class="modal-title fr hidden" id="fullQuranModalLabel">Programme de mémorisation complète du Coran</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="ar">برنامج شامل ومكثف لحفظ القرآن الكريم بأكمله، مصمم لتطوير مهارات الحفظ والتجويد والفهم.</p>
+                    <p class="fr hidden">Un programme complet et intensif pour mémoriser l'intégralité du Noble Coran, conçu pour développer les compétences de mémorisation, de tajwid et de compréhension.</p>
+                    <h6 class="ar">مميزات البرنامج:</h6>
+                    <h6 class="fr hidden">Caractéristiques du programme :</h6>
+                    <ul class="ar">
+                        <li>حفظ القرآن الكريم كاملاً (30 جزءًا) بإتقان</li>
+                        <li>دروس مكثفة في التجويد وأحكام التلاوة</li>
+                        <li>تفسير مختصر للآيات لتعزيز الفهم</li>
+                        <li>جلسات مراجعة منتظمة لتثبيت الحفظ</li>
+                        <li>اختبارات دورية لتقييم التقدم</li>
+                        <li>شهادة معتمدة عند إتمام البرنامج</li>
+                    </ul>
+                    <ul class="fr hidden">
+                        <li>Mémorisation complète et maîtrisée du Noble Coran (30 juz)</li>
+                        <li>Cours intensifs de tajwid et règles de récitation</li>
+                        <li>Interprétation concise des versets pour renforcer la compréhension</li>
+                        <li>Sessions de révision régulières pour consolider la mémorisation</li>
+                        <li>Tests périodiques pour évaluer les progrès</li>
+                        <li>Certificat accrédité à la fin du programme</li>
+                    </ul>
+                    <p class="ar">مدة البرنامج: 3-5 سنوات (تعتمد على قدرة الطالبة وجهدها)</p>
+                    <p class="fr hidden">Durée du programme : 3-5 ans (selon la capacité et l'effort de l'étudiante)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="teacherTrainingModal" tabindex="-1" aria-labelledby="teacherTrainingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title ar" id="teacherTrainingModalLabel">برنامج إعداد المعلمات</h5>
+                    <h5 class="modal-title fr hidden" id="teacherTrainingModalLabel">Programme de formation des enseignantes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="ar">برنامج متخصص لإعداد وتأهيل معلمات القرآن الكريم، يجمع بين العلوم الشرعية ومهارات التدريس الحديثة.</p>
+                    <p class="fr hidden">Un programme spécialisé pour préparer et qualifier les enseignantes du Noble Coran, combinant les sciences islamiques et les compétences pédagogiques modernes.</p>
+                    <h6 class="ar">محتوى البرنامج:</h6>
+                    <h6 class="fr hidden">Contenu du programme :</h6>
+                    <ul class="ar">
+                        <li>دراسة متعمقة في علوم القرآن والتجويد</li>
+                        <li>أساليب التدريس الحديثة لتعليم القرآن</li>
+                        <li>مهارات التواصل والتعامل مع الطالبات</li>
+                        <li>تقنيات تحفيز الطالبات وتشجيعهن</li>
+                        <li>التدريب العملي على التدريس</li>
+                        <li>إدارة الصف وتنظيم الوقت</li>
+                        <li>استخدام التكنولوجيا في تعليم القرآن</li>
+                    </ul>
+                    <ul class="fr hidden">
+                        <li>Étude approfondie des sciences du Coran et du tajwid</li>
+                        <li>Méthodes d'enseignement modernes pour l'enseignement du Coran</li>
+                        <li>Compétences en communication et en gestion des étudiantes</li>
+                        <li>Techniques de motivation et d'encouragement des étudiantes</li>
+                        <li>Formation pratique à l'enseignement</li>
+                        <li>Gestion de classe et organisation du temps</li>
+                        <li>Utilisation de la technologie dans l'enseignement du Coran</li>
+                    </ul>
+                    <p class="ar">مدة البرنامج: سنة واحدة</p>
+                    <p class="fr hidden">Durée du programme : 1 an</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="sewingProgramModal" tabindex="-1" aria-labelledby="sewingProgramModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title ar" id="sewingProgramModalLabel">برنامج تعليم الخياطة المهنية</h5>
+                    <h5 class="modal-title fr hidden" id="sewingProgramModalLabel">Programme d'apprentissage professionnel : Couture</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="ar">برنامج شامل لتعليم مهارات الخياطة الاحترافية، يهدف إلى تمكين النساء مهنياً واقتصادياً.</p>
+                    <p class="fr hidden">Un programme complet pour enseigner les compétences professionnelles en couture, visant à autonomiser les femmes professionnellement et économiquement.</p>
+                    <h6 class="ar">ما سيتم تعلمه:</h6>
+                    <h6 class="fr hidden">Ce qui sera appris :</h6>
+                    <ul class="ar">
+                        <li>أساسيات الخياطة والتفصيل</li>
+                        <li>استخدام وصيانة ماكينات الخياطة الحديثة</li>
+                        <li>تصميم وتنفيذ الملابس النسائية والأطفال</li>
+                        <li>فنون التطريز والزخرفة</li>
+                        <li>تقنيات الخياطة المتقدمة</li>
+                        <li>إدارة مشاريع الخياطة الصغيرة</li>
+                        <li>التسويق وخدمة العملاء</li>
+                    </ul>
+                    <ul class="fr hidden">
+                        <li>Bases de la couture et de la coupe</li>
+                        <li>Utilisation et entretien des machines à coudre modernes</li>
+                        <li>Conception et réalisation de vêtements pour femmes et enfants</li>
+                        <li>Arts de la broderie et de la décoration</li>
+                        <li>Techniques de couture avancées</li>
+                        <li>Gestion de petits projets de couture</li>
+                        <li>Marketing et service client</li>
+                    </ul>
+                    <p class="ar">مدة البرنامج: 6 أشهر</p>
+                    <p class="fr hidden">Durée du programme : 6 mois</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="vacationProgramModal" tabindex="-1" aria-labelledby="vacationProgramModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title ar" id="vacationProgramModalLabel">برنامج الإجازة الصيفية</h5>
+                    <h5 class="modal-title fr hidden" id="vacationProgramModalLabel">Programme de vacances d'été</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="ar">برنامج استثنائي لمدة شهرين خلال العطلة الصيفية، مصمم خصيصًا للطالبات الناطقات بالفرنسية لتحفيظ القرآن الكريم.</p>
+                    <p class="fr hidden">Un programme exceptionnel de 2 mois pendant les vacances d'été, spécialement conçu pour les étudiantes francophones pour la mémorisation du Noble Coran.</p>
+                    <h6 class="ar">مميزات البرنامج:</h6>
+                    <h6 class="fr hidden">Caractéristiques du programme :</h6>
+                    <ul class="ar">
+                        <li>دورة مكثفة لتحفيظ القرآن الكريم</li>
+                        <li>مناسب للطالبات الناطقات بالفرنسية</li>
+                        <li>مدة البرنامج: شهران</li>
+                        <li>شهادة معتمدة عند إتمام البرنامج</li>
+                    </ul>
+                    <ul class="fr hidden">
+                        <li>Cours intensif de mémorisation du Noble Coran</li>
+                        <li>Adapté aux étudiantes francophones</li>
+                        <li>Durée du programme : 2 mois</li>
+                        <li>Certificat accrédité à la fin du programme</li>
+                    </ul>
+                    <p class="ar">فرصة رائعة للطالبات الفرنكوفونيات لتحسين مهارات حفظ القرآن خلال فترة الإجازة.</p>
+                    <p class="fr hidden">Une excellente opportunité pour les étudiantes francophones d'améliorer leurs compétences en mémorisation du Coran pendant la période des vacances.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>© <span id="current-year"></span> مركز أسماء بنت أبي بكر | Merkez ASMAAT BINT ABOUBAKR. جميع الحقوق محفوظة | Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    
+    <script>
+        function setLanguage(lang) {
+            const arElements = document.querySelectorAll('.ar');
+            const frElements = document.querySelectorAll('.fr');
+            const arIcon = document.getElementById('ar-icon');
+            const frIcon = document.getElementById('fr-icon');
+
+            if (lang === 'ar') {
+                arElements.forEach(el => el.classList.remove('hidden'));
+                frElements.forEach(el => el.classList.add('hidden'));
+                arIcon.classList.add('active');
+                frIcon.classList.remove('active');
+            } else if (lang === 'fr') {
+                arElements.forEach(el => el.classList.add('hidden'));
+                frElements.forEach(el => el.classList.remove('hidden'));
+                arIcon.classList.remove('active');
+                frIcon.classList.add('active');
+            }
+        }
+
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
